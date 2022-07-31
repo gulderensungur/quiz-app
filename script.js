@@ -120,7 +120,7 @@ submitBtn.addEventListener("click", () => {
         <p>Shame on you!</p>`;
       } else if (score >= 4 && score <= 5) {
         quizEl.innerHTML = `<h2>You answered correctly  ${score}/ ${questions.length} questions</h2>
-        <p>You should have known me better.</p>`;
+        <p  style = "color:yellow">You should have known me better.</p>`;
       } else if (score === 6) {
         quizEl.innerHTML = `<h2>You answered correctly  ${score}/ ${questions.length} questions</h2>
         <p style = "color:green">Well done! You know me well :)</p>`;
